@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XSpamc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x410 /fo"Release/version.res" /i "\MailRoot\XSpamc\0.4\0.4.1\xspamc\src" /d "NDEBUG" "E:\MailRoot\XSpamc\0.4\0.4.1\xspamc\src\version.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\RSPCC.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D XSPAMC_OS=Win32 /Fp"Release/XSpamc.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\MailRoot\XSpamc\0.4\0.4.3\xspamc\src\dep.c"
+"E:\MailRoot\XSpamc\0.4\0.4.3\xspamc\src\libspamc.c"
+"E:\MailRoot\XSpamc\0.4\0.4.3\xspamc\src\utility.c"
+"E:\MailRoot\XSpamc\0.4\0.4.3\xspamc\src\xspamc.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\RSPCC.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\RSPCD.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ws2_32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/XSpamc.pdb" /machine:I386 /out:"Release/XSpamc.exe" 
+.\Release\dep.obj
+.\Release\libspamc.obj
+.\Release\utility.obj
+.\Release\xspamc.obj
+.\Release\version.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\RSPCD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+dep.c
+libspamc.c
+utility.c
+xspamc.c
+Linking...
+
+
+
+<h3>Results</h3>
+XSpamc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
